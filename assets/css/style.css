@@ -1,0 +1,227 @@
+/* --- structure ---------------------- */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* page color */
+body {
+    background-color: #d9dcd6;
+}
+/* --- Header ------------------------- */
+/* typography changes and background */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* company name */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* SEO color */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* --- Navigation --------------- */
+/* set navigation font and spacing */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* remove bullet */
+header nav ul {
+    list-style-type: none;
+}
+/* nav list items */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* --- links ------------------ */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* --- paragraph ------------------- */
+p {
+    font-size: 16px;
+}
+/* --- hero content and image ------------------ */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* --- content section ---------------------- */
+.content {
+    /* set the width, display, and add 20 pixels of margin space to the left of the entire section */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* --- Search Engine Optimization block -------------- */
+#search-engine-optimization {
+    /* margin space, font properties, color */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#search-engine-optimization h2 {
+    /* margin space, font size */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#search-engine-optimization img {
+    /* height, float element, margin space */
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* --- Online Reputation Management Content Block --------- */
+#online-reputation-management {
+    /* add margin space to the bottom, set the padding of the block, background color and font details */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#online-reputation-management h2 {
+    /* set the margin space below the title, and the font size */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#online-reputation-management img {
+    /* set the height of the image, float it to the right, and set margin space to the left */
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+/* --- Social Media Marketing Content Block --------- */
+#social-media-marketing {
+    /* add space to the bottom, padding around the block, set font size and color and block height */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#social-media-marketing img {
+    /* set the height of the image, float it to the left, and add margin space to the right */
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+#social-media-marketing h2 {
+    /* set margin below title, and set font size */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* --- Benefits Aside block ------------- */
+#benefits {
+    /* adds 20 pixels of space to the right of the benefits section, 20px of space around the block, floats the entire block to the right, sets the width, background and font properties */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* --- Benefit lead article content */
+#benefit-lead {
+    /* adds margin space to the bottom of the content and changes the color to white */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+#benefit-lead h3 {
+    /* adds space to the boom and makes the text center */
+    margin-bottom: 10px;
+    text-align: center;
+}
+#benefit-lead img {
+    /* changes the display, centers the image, and sets width */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* --- Brand Awareness article content block */
+#benefit-brand {
+    /* add margin space to the bottom and change color to white */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+#benefit-brand h3 {
+    /* add space below title and center text */
+    margin-bottom: 10px;
+    text-align: center;
+}
+#benefit-brand img {
+    /* change display, center image, and set width */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* --- cost management article content block */
+#benefit-cost {
+    /* add space below the block and set the font color to white */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+#benefit-cost h3 {
+    /* add space below the title and center the text */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#benefit-cost img {
+    /* change the display, center the image and set width */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* --- footer ----------------- */
+footer {
+    /* set the padding of the block, clear any floats so nothing floats to right or left of footer, set font and center the text */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    /* change font size of title of footer */
+    font-size: 20px;
+}
